@@ -22,6 +22,9 @@ public:
     MyWidget(QWidget *parent = nullptr);//构造函数， 使用了默认值 ， 找爹【自动内存回收】
     ~MyWidget();//析构函数，回收资源
 
+private slots:
+    void on_pushButton_clicked();//槽函数的声明
+
 private:
     Ui::MyWidget *ui;//在designer拖拽的组件  都会被封装到    ui
 
