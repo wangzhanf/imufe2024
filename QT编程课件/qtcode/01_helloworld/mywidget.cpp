@@ -5,6 +5,7 @@
 #include <QDialog>
 #include <QColorDialog>
 #include <QDebug>
+#include <QFileDialog>
 
 //构造函数的定义   类名 域解析符 属性名或函数名 (形参列表[默认值只能在声明或定义时出现1次])
 MyWidget::MyWidget(QWidget *parent)
@@ -51,5 +52,12 @@ void MyWidget::on_pushButton_clicked()
     qDebug() << col;
 
     //点击按钮打开文件对话框，选择   zip和rar文件， 在控制台输出文件名称
+}
+
+
+void MyWidget::on_pushButton_2_clicked()
+{
+    // QFileDialog::getOpenFileName();
+    //项目放在中文目录会出现误报错误。
 }
 

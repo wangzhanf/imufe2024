@@ -25,6 +25,8 @@ public:
 private slots:
     void on_pushButton_clicked();//槽函数的声明
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MyWidget *ui;//在designer拖拽的组件  都会被封装到    ui
 
