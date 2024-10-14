@@ -1,0 +1,18 @@
+/*通用选择器   *     */
+*{
+	background-color:rgb(0,0,0);
+}
+
+/*相当于   class选择器*/
+QPushButton{
+	color:rgb(255,0,0);
+}
+/*相当于   id选择器*/
+#pushButton{
+	background-color:rgb(0,0,255);
+}
+
+
+#pushButton_2{
+	background-color:rgb(0,255,0);
+}
