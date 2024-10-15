@@ -47,7 +47,7 @@ private:
     QNetworkAccessManager * NetAccessManager;
     QNetworkAccessManager * ImgNetAccessManager;
 
-    QString ImgUrl =  QString("http://v.api.aa1.cn/api/api-gqsh/img/259.jpg");
+    QString ImgUrl =  QString("https://cdn2.thecatapi.com/images/bpf.jpg");//临时占用的图片
 
     QPixmap *currentPicture;
 
