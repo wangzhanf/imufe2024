@@ -16,6 +16,8 @@ function logout():void{
     router.push("/login");
 }
 
+let aa = "<Star />";
+
 
 </script>
 <!-- 页面组织结构 -->
@@ -32,7 +34,7 @@ function logout():void{
       <el-footer>
         <el-row :gutter="20">
         <el-col :span="6">
-            <el-icon><Star color="orangered" /></el-icon>
+            <el-icon v-html="aa"></el-icon>
             <div class="hidden-sm-and-down">Star</div>
         </el-col>
         <el-col :span="6">
